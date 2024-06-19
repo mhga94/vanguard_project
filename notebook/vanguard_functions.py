@@ -33,4 +33,4 @@ def new_col_5_bins (data, column_name : str, new_column: str):
 def interpolator (original_values : list, all_values, new_range_min, new_range_max):
     m = interp1d([min(all_values),max(all_values)],[new_range_min,new_range_max])
     new_values = list(m(original_values))
-    return new_values
+    return new_valuesS
